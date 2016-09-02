@@ -26,4 +26,5 @@
         <allow-intent href="itms-apps:*" />
         <preference name="DisallowOverscroll" value="true" />
     </platform>
+      <preference name="DisallowOverscroll" value="true" />
 </widget>
