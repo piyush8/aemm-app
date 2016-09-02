@@ -1,0 +1,15 @@
+body {
+  margin: 0 auto;
+  background-image:url("../img/kPl0TGN.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 825px;
+
+}
+.gen {
+  color: red;
+}
+#dt {
+  text-indent: -500px;
+  height: 25px;
+  width: 200px;
+}

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index1.css">
+        <script src="js/index.js"></script>
+        <style>
+        td{
+          color:white;
+        }
+        </style>
+        <title>Hello kvana</title>
+    </head>
+<body>
+
+    <form action="signin.html">
+     <center>
+      <table><tr>
+    <td>username</td><td><input type="text"name="username" required></td></tr>
+    <tr>
+    <td>email</td><td><input type="text" name="Email"></td></tr>
+    <tr>
+      <td>gender</td>
+       <td><input type="radio" name="gender" value="male" checked> Male<input type="radio" name="gender" value="female"> Female</td>
+     </td></tr>
+     <tr>
+    <td>Date of Birth</td>
+    <td>
+    <input type="date"></td>
+</tr>
+    <tr>
+    <td>password</td><td><input type="text" name="password"></td></tr>
+    <tr>
+    <td>conform password</td><td><input type="text" name=" confrom password"></td></tr>
+     <tr>
+    <td>mobile phone</td><td><input type="number" name="Mobile Phone"></td></tr>
+     <tr>
+    <td>location</td><td><input type="text" name="Location"></td></tr>
+    <tr style="height:10px;"></tr>
+
+    <tr><td colspan="2" align="center"><input type="submit" value="submit"></td></tr>
+</table>
+</center>
+</form>
+
+
+      </body>
+      </html>
